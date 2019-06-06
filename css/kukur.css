@@ -1,0 +1,315 @@
+body {
+    font-family: 'Crimson Text', serif;
+
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #1976d2;
+    position: relative;
+    
+}
+.nav-header {
+    display: inline;
+  }
+  
+.nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    /* padding: 1px 10px 10px 10px; */
+  }
+.nav-header > .nav-title>a{
+    color: #eee;
+    font-size: 32px;
+  }
+  
+.nav-btn {
+display: none;
+}
+
+.nav-links {
+display: inline;
+float: right;
+font-size: 18px;
+}
+.nav-links > a {
+display: inline-block;
+padding: 13px 10px 10px 10px;
+text-decoration: none;
+color: #efefef;
+}
+
+.nav-links > a:hover {
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+#nav-check {
+display: none;
+}
+
+@media (max-width:600px) {
+.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+}
+.nav-btn > label:hover, #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+}
+.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+    z-index: 900;
+
+}
+.nav-links > a {
+    display: block;
+    width: 100%;
+}
+#nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+/* Blog 1 css Begins */
+.blog1{
+  margin-top: 55px;
+}
+.blog1 > .container > .row > #featured{
+  padding-top: 40px;
+}
+.blog1 > .container > .row > .col-md-6 > h3{
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(112, 104, 104);
+  text-transform: uppercase;
+}
+.blog1 > .container > .row > .col-md-6 > h1{
+  font-weight: 500;
+  font-size: 50px;
+  color: #333;
+  font-family: initial;
+}
+.blog1 > .container > .row > .col-md-6 > p{
+  font-weight: 500;
+  padding-top: 15px;
+  font-size: 25px;
+  color: rgb(112, 104, 104);
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog1 > .container > .row > .col-md-6 > figure > figcaption{
+  font-weight: 500;
+  padding-top: 5px;
+  font-size: 15px;
+  color: rgb(112, 104, 104);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog1 > .container > .row > #featured > .row{
+  padding-top: 30px;
+}
+.blog1 > .container > .row > #featured > .row > #rounded > img{
+  border-radius: 50%;
+}
+.blog1 > .container > .row > #featured > .row > .col-md-10{
+  padding-top: 12px;
+}
+.blog1 > .container > .row > #featured > .row > .col-md-10 > p{
+  line-height : 18px;
+  font-size : 15px;
+  margin-bottom: 1px;
+}
+.blog1 > .container > .row > #featured > .row > .col-md-10 > p > button{
+  border-radius: 9px;
+  background-color: white;
+  color: black;
+}
+/* Blog 1 css Ends */
+/* Blog 2 css Starts */
+.blog2 > .container > .row > #icons{
+  margin-top: 60px;
+}
+.blog2 > .container > .row > #icons > p{
+  font-size: 15px;
+  font-weight: 400;
+  color:  rgb(112, 104, 104);
+}
+.blog2 > .container > .row > #icons > p > i{
+  padding-top: 10px;
+  font-size: 26px;
+}
+.blog2 > .container > .row > .col-md-8 > p{
+  font-weight: 400;
+  padding-top: 5px;
+  font-size: 22px;
+  color: rgb(58, 54, 54);
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog2 > .container > .row > .col-md-8 > h2{
+  font-weight: 550;
+  padding-top: 25px;
+  font-size: 26px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Blog 2 css Ends */
+/* Blog 3 css Starts */
+.blog3 > .container > .row > #roundedicon > button{
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: inline-block;
+}
+.blog3 > .container > .row > #roundedicon > button > i{
+  font-size: 50px;
+}
+.blog3 > .container > .row > #roundedicon > h5{
+  display: inline-block;
+  padding-left: 20px;
+  padding-top:20px;
+  font-size: 15px;
+}
+.blog3 > .container > .row > #roundedicon > .righticons{
+  display: inline-block;
+  font-size: 36px;
+}
+/* Blog 3 css Ends */
+/* Blog 4 css starts */
+.blog4 > .container > .row{
+  margin-top: 30px;
+}
+.blog4 > .container > .row >  #rounded > img{
+  border-radius: 50%;
+}
+.blog4 > .container > .row > .col-md-6 > h3{
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(112, 104, 104);
+  text-transform: uppercase;
+}
+.blog4 > .container > .row > .col-md-6 > h1{
+  font-weight: 700;
+  font-size: 30px;
+  color: #333;
+  font-family: initial;
+}
+.blog4 > .container > .row > .col-md-6 > p{
+  font-weight: 500;
+  padding-top: 10px;
+  font-size: 17px;
+  color: rgb(112, 104, 104);
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog4 > .container > .row > .col-md-6 > button{
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 35px;
+}
+/* Blog 4 css ends */
+/* Blog 5 css Begins */
+.blog5{
+  margin-top: 55px;
+}
+.blog5 > .container > .row > #featured{
+  padding-top: 40px;
+}
+.blog5 > .container > .row > .col-md-6 > h3{
+  font-weight: 600;
+  font-size: 15px;
+  color: green;
+  text-transform: uppercase;
+}
+.blog5 > .container > .row > .col-md-6 > h1{
+  font-weight: 550;
+  font-size: 42px;
+  color: #333;
+  font-family: initial;
+}
+.blog5 > .container > .row > .col-md-6 > p{
+  font-weight: 500;
+  padding-top: 15px;
+  font-size: 20px;
+  color: rgb(112, 104, 104);
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog5 > .container > .row > #featured > .row{
+  padding-top: 30px;
+}
+.blog5 > .container > .row > #featured > .row > .col-md-12{
+  padding-top: 12px;
+}
+.blog5 > .container > .row > #featured > .row > .col-md-12 > p{
+  line-height : 18px;
+  font-size : 15px;
+  margin-bottom: 1px;
+}
+/* Blog 5 css Ends */
+
+/* Blog 6 css starts */
+.blog6 > .container > .row{
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  padding-bottom: 60px;
+}
+.blog6 > .container > .row > .col-md-4{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.blog6 > .container > .row > .col-md-4 > .row > h1{
+  font-weight: 550;
+  font-size: 25px;
+  color: #333;
+  font-family: initial;
+}
+.blog6 > .container > .row > .col-md-4 > #images{
+  height: 150px;
+  overflow: hidden;
+}
+.blog6 > .container > .row > .col-md-4 > #images > img{
+  object-fit: fill; 
+}
+.blog6 > .container > .row > .col-md-4 > .row > p{
+  font-weight: 500;
+  padding-top: 10px;
+  font-size: 20px;
+  color: rgb(112, 104, 104);
+  font-family: 'Times New Roman', Times, serif;
+}
+.blog6 > .container > .row > .col-md-4 > .row > .row{
+  padding-top: 8px;
+}
+.blog6 > .container > .row > .col-md-4 > .row > .row > .col-md-12{
+  padding-top: 12px;
+}
+.blog6 > .container > .row > .col-md-4 > .row > .row > .col-md-12 > p{
+  line-height : 15px;
+  font-size : 15px;
+  margin-bottom: 1px;
+}
+/* Blog 6 css ends */
