@@ -211,3 +211,76 @@ display: none;
 }
 
 /* fourth bolg css ends */
+/* Fifth blog css starts */
+.fifthblog > .container{
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+.fifthblog > .container > #absolute{
+    position:absolute;
+    width: 90% 
+}
+.fifthblog > .container > #relative{
+    position: relative;
+    padding-top: 250px;
+}
+.fifthblog > .container > #relative >#abc > h3{
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.fifthblog > .container > #relative > #abc > h1{
+    color:#333;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.fifthblog > .container > #relative > #abc > p {
+    background-color: rgb(247, 239, 228);
+    opacity: 0.7;
+    color:rgb(99, 5, 83);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    display: inline;
+    padding-top: 7px;
+}
+
+/* Fifth blog css ends */
+
+/* Sixth blog css starts */
+.sixthblog > #absoluteimg{
+    position: absolute;
+}
+.sixthblog > #relativeimg{
+    position: relative;
+    padding-top: 250px;
+}
+.sixthblog > .container > #relative >#abc > h3{
+    color: red;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.sixthblog > .container > #relative > #abc > h1{
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.sixthblog > .container > #relative > #abc > p {
+    background-color: rgb(247, 239, 228);
+    opacity: 0.7;
+    color:rgb(99, 5, 83);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    display: inline;
+    padding-top: 7px;
+}
+/* Sixth blog css ends */
