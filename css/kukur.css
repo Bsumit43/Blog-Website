@@ -314,3 +314,43 @@ display: none;
   margin-bottom: 1px;
 }
 /* Blog 6 css ends */
+
+/* Footer css starts */
+.footer {
+  background-color: #1a1a1a;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-bottom: 3px solid #129CF3;
+  color: #eee;
+}
+.footer > .container > .row > .col-md-4 > h2{
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer > .container > .row > .col-md-4 > p{
+  font-size: 15px;
+  font-weight: 500;
+  color: darkgrey;
+}
+.footer > .container > .row > #head > h1{
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 15px;
+}
+.footer > .container > .row > .listdiv{
+  float: right;
+  align-content: right;
+  margin-left: auto;
+}
+.footer > .container > .row > .listdiv > #list > li{
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  display: inline;
+}
+.footer > .container > hr{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border: 1px solid darkgrey;
+}
+/* Footer css Ends */
